@@ -1,0 +1,24 @@
+.transaction-table {
+  width: 700px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.table-header {
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+.table-header, .table-data {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-weight: 500;
+}
+
+.table-row:nth-child(even) {
+  background-color: #e9dbdb;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1;
+}
